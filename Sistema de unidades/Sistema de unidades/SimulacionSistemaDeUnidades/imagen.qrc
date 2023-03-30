@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>recursos/bola.png</file>
+        <file>recursos/carro.gif</file>
+        <file>recursos/lapiz.png</file>
+        <file>recursos/lingote.png</file>
+        <file>recursos/manzana.png</file>
+        <file>recursos/pescado.png</file>
+        <file>recursos/regla.png</file>
+        <file>recursos/sandia.png</file>
+        <file>recursos/bate.png</file>
+        <file>recursos/bateria.png</file>
+        <file>recursos/memoria.png</file>
+        <file>recursos/sacapunta.png</file>
+        <file>recursos/icono_masa.png</file>
+        <file>recursos/icono_incertidumbre.png</file>
+        <file>recursos/fondo.png</file>
+        <file>recursos/icono_longitud.png</file>
+        <file>recursos/icono_notacion.png</file>
+        <file>recursos/icono_velocidad.png</file>
+        <file>recursos/icono_volver.png</file>
+        <file>recursos/icono_dado.png</file>
+        <file>recursos/icono_revisar.png</file>
+        <file>recursos/icono_calcular.png</file>
+        <file>recursos/icono_precision.png</file>
+        <file>recursos/bascula_roja.png</file>
+        <file>recursos/bascula_azul.png</file>
+        <file>recursos/notas.png</file>
+        <file>recursos/icono_cerrar.png</file>
+        <file>recursos/masa_5kg.png</file>
+        <file>recursos/sofa.png</file>
+        <file>recursos/zapato.png</file>
+    </qresource>
+</RCC>

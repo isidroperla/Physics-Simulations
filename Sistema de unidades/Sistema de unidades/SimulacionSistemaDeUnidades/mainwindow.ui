@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>962</width>
+    <height>502</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>962</width>
+    <height>502</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>SIMULACIÓN SISTEMA DE UNIDADES</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QToolButton" name="btn_opc_velocidad">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>340</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>    VELOCIDAD</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_velocidad.png</normaloff>:/new/prefix1/recursos/icono_velocidad.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_opc_masa">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>340</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>        MASA</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_masa.png</normaloff>:/new/prefix1/recursos/icono_masa.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_opc_incertidumbre">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>INCERTIDUMBRE</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_incertidumbre.png</normaloff>:/new/prefix1/recursos/icono_incertidumbre.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>30</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SIMULACIÓN SISTEMA DE UNIDADES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_opc_longitud">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>100</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>151</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>     LONGITUD</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_longitud.png</normaloff>:/new/prefix1/recursos/icono_longitud.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_opc_notacion">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>220</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>    NOTACIÓN
+   CIENTÍFICA</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_notacion.png</normaloff>:/new/prefix1/recursos/icono_notacion.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_opc_precision">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>240</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>PRECISIÓN Y
+ EXACTITUD</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_precision.png</normaloff>:/new/prefix1/recursos/icono_precision.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_cerrar">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>400</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(0, 0, 0);
+border-width: 2px;
+border-radius: 10px;
+color: rgb(0,0,0);
+background-color: rgb(166, 166, 166);
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>CERRAR</string>
+    </property>
+    <property name="icon">
+     <iconset resource="imagen.qrc">
+      <normaloff>:/new/prefix1/recursos/icono_cerrar.png</normaloff>:/new/prefix1/recursos/icono_cerrar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>390</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;UNIVERSIDAD DE EL SALVADOR&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Autor: José Isidro Perla Rosa&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>962</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="imagen.qrc"/>
+ </resources>
+ <connections/>
+</ui>
